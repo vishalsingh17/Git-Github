@@ -150,9 +150,9 @@ The key benefits of GitHub are as follows.
 
 # Git
 
-![https://static.javatpoint.com/difference/images/git-vs-github2.jpg](https://static.javatpoint.com/difference/images/git-vs-github2.jpg)
+![git-vs-github2](https://user-images.githubusercontent.com/55878408/204702343-84228fcc-25dd-4e3d-9e3a-3c4dd1ed7553.jpg)
 
-There are many words to define [git](https://www.javatpoint.com/git), but it is an open-source distributed version control system in simpler words.
+There are many words to define git, but it is an open-source distributed version control system in simpler words.
 
 Let us break each component in the definition and understand it.
 
@@ -167,9 +167,9 @@ When a team works on real-life projects, git helps ensure no code conflicts betw
 
 # GitHub
 
-![https://static.javatpoint.com/difference/images/git-vs-github3.png](https://static.javatpoint.com/difference/images/git-vs-github3.png)
+![git-vs-github3](https://user-images.githubusercontent.com/55878408/204702349-f238e0ea-3b7c-4dc5-9251-339763431995.png)
 
-By the name, we can visualize that it is a Hub, projects, communities, etc. [GitHub](https://www.javatpoint.com/github) is a [Git repository](https://www.javatpoint.com/git-repository) hosting service that provides a web-based graphical interface. It is the largest community in the world. Whenever a project is open-source, that particular repository gains exposure to the public and invites several people to contribute.
+By the name, we can visualize that it is a Hub, projects, communities, etc. GitHub is a Git repository hosting service that provides a web-based graphical interface. It is the largest community in the world. Whenever a project is open-source, that particular repository gains exposure to the public and invites several people to contribute.
 
 The source code of several projects is available on github which developers can use in any means.
 
@@ -183,3 +183,61 @@ Using github, many developers can work on a single project remotely because it f
 - All the codes and their documentation are in one place in the same repository. Hence it makes easy code hosting.
 - There are some special tools that github uses to identify the vulnerabilities in the code which other softwares do not have. Hence there is safety among the developers from code start till launch.
 - Github is available for mobile and desktops. The UI is so user-friendly that it becomes straightforward to get comfortable with and use it.
+
+# Git Commands
+### git init
+The git init command is the first command that you will run on Git. The git init command is used to create a new blank repository. It is used to make an existing project as a Git project. Several Git commands run inside the repository, but init command can be run outside of the repository.
+
+The git init command creates a .git subdirectory in the current working directory. This newly created subdirectory contains all of the necessary metadata. These metadata can be categorized into objects, refs, and temp files. It also initializes a HEAD pointer for the master branch of the repository.
+
+### git add 
+The git add command is used to add file contents to the Index Staging Area.This command updates the current content of the working tree to the staging area. It also prepares the staged content for the next commit. Every time we add or update any file in our project, it is required to forward updates to the staging area.
+
+### git commit
+It is used to record the changes in the repository. It is the next command after the git add. Every commit contains the index data and the commit message. Every commit forms a parent-child relationship. When we add a file in Git, it will take place in the staging area. A commit command is used to fetch updates from the staging area to the repository.
+
+### git pull
+The term pull is used to receive data from GitHub. It fetches and merges changes from the remote server to your working directory. The git pull command is used to pull a repository.
+
+![git-pull](https://user-images.githubusercontent.com/55878408/204703524-6f53bbfc-7efd-4237-9606-8976fa358699.png)
+
+### git push
+The push term refers to upload local repository content to a remote repository. Pushing is an act of transfer commits from your local repository to a remote repository. Pushing is capable of overwriting changes; caution should be taken when pushing
+
+![git-push](https://user-images.githubusercontent.com/55878408/204703614-ccb0a4b5-0ebb-4227-9497-69eb206fb6c7.png)
+
+### git status
+The git status command is used to display the state of the repository and staging area. It allows us to see the tracked, untracked files and changes. This command will not show any commit records or information.
+
+Mostly, it is used to display the state between Git Add and Git commit command. We can check whether the changes and files are tracked or not.
+
+### git branch
+A branch is a version of the repository that diverges from the main working project. It is a feature available in most modern version control systems. A Git project can have more than one branch. These branches are a pointer to a snapshot of your changes. When you want to add a new feature or fix a bug, you spawn a new branch to summarize your changes. So, it is complex to merge the unstable code with the main code base and also facilitates you to clean up your future history before merging with the main branch.
+
+![git-branch](https://user-images.githubusercontent.com/55878408/204703895-8352f777-ed7d-4941-a15c-3161d14e76cc.png)
+
+### git checkout
+The term checkout is used for the act of switching between different versions of a target entity. The git checkout command is used to switch between branches in a repository. Be careful with your staged files and commits when switching between branches.
+
+![git-checkout](https://user-images.githubusercontent.com/55878408/204704004-a788a398-eb09-41d8-9afb-ce968ae3f91b.png)
+
+### git clone
+Cloning is the act of making a copy of any target repository. The target repository can be remote or local. You can clone your repository from the remote repository to create a local copy on your system. Also, you can sync between the two locations.
+
+![git-clone](https://user-images.githubusercontent.com/55878408/204704115-ee802057-509c-4ebb-b07a-3011ce1b61c4.png)
+
+### git log
+The advantage of a version control system is that it records changes. These records allow us to retrieve the data like commits, figuring out bugs, updates. But, all of this history will be useless if we cannot navigate it. At this point, we need the git log command.
+
+Git log is a utility tool to review and read a history of everything that happens to a repository. Multiple options can be used with a git log to make history more specific.
+
+![image](https://user-images.githubusercontent.com/55878408/204704724-23883169-a4f7-489e-86fb-b5d6e443a37b.png)
+
+### git merge and merge conflict
+In Git, the merging is a procedure to connect the forked history. It joins two or more development history together. The git merge command facilitates you to take the data created by git branch and integrate them into a single branch. Git merge will associate a series of commits into one unified history. Generally, git merge is used to combine two branches.
+
+![git-merge-and-merge-conflict](https://user-images.githubusercontent.com/55878408/204704840-05e6919d-eb80-4128-a482-baec66e7d795.png)
+
+It is used to maintain distinct lines of development; at some stage, you want to merge the changes in one branch. It is essential to understand how merging works in Git.
+
+In the above figure, there are two branches master and feature. We can see that we made some commits in both functionality and master branch, and merge them. It works as a pointer. It will find a common base commit between branches. Once Git finds a shared base commit, it will create a new "merge commit." It combines the changes of each queued merge commit sequence.
