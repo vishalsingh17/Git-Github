@@ -241,3 +241,69 @@ In Git, the merging is a procedure to connect the forked history. It joins two o
 It is used to maintain distinct lines of development; at some stage, you want to merge the changes in one branch. It is essential to understand how merging works in Git.
 
 In the above figure, there are two branches master and feature. We can see that we made some commits in both functionality and master branch, and merge them. It works as a pointer. It will find a common base commit between branches. Once Git finds a shared base commit, it will create a new "merge commit." It combines the changes of each queued merge commit sequence.
+
+## Install Git
+
+- Step1
+
+To download the Git installer, visit the Git's official site and go to download page. The link for the download page is [link](https://git-scm.com/downloads). The page looks like as
+
+![install-git-on-windows](https://user-images.githubusercontent.com/55878408/205209912-01215ae0-eaaf-4401-ae30-8b70beb7b19a.png)
+
+Click on the package given on the page as download 2.23.0 for windows. The download will start after selecting the package.
+
+Now, the Git installer package has been downloaded.
+
+- Step2
+
+Click on the downloaded installer file and select yes to continue. After the selecting yes the installation begins, and the screen will look like as
+
+![install-git-on-windows2](https://user-images.githubusercontent.com/55878408/205210304-f46dcb77-96e3-4cc9-9676-80f8d88b94e7.png)
+
+Click on next to continue.
+
+- Step3
+
+Default components are automatically selected in this step. You can also choose your required part.
+
+![install-git-on-windows3](https://user-images.githubusercontent.com/55878408/205210371-7cf46bd3-5327-4ac5-b634-31b723d983f4.png)
+
+Click next to continue.
+
+- Step4
+
+The default Git command-line options are selected automatically. You can choose your preferred choice. Click next to continue.
+
+![install-git-on-windows4](https://user-images.githubusercontent.com/55878408/205210429-a3c9a687-64d4-4727-ad57-abe4a41eeed4.png)
+
+- Step5
+
+The default transport backend options are selected in this step. Click next to continue.
+
+![install-git-on-windows5](https://user-images.githubusercontent.com/55878408/205210487-fce5764d-2015-40f5-bffb-b15ca6d6aaf2.png)
+
+- Step6
+
+Select your required line ending option and click next to continue.
+
+![install-git-on-windows6](https://user-images.githubusercontent.com/55878408/205210533-4fba125c-d2de-437c-897b-55416c16746d.png)
+
+- Step7
+
+Select preferred terminal emulator clicks on the next to continue.
+
+![install-git-on-windows7](https://user-images.githubusercontent.com/55878408/205210592-f702c186-84dc-4677-b91f-7385fa2619a0.png)
+
+- Step8
+
+This is the last step that provides some extra features like system caching, credential management and symbolic link. Select the required features and click on the next option.
+
+![install-git-on-windows8](https://user-images.githubusercontent.com/55878408/205210604-753ae9b1-5c17-417a-9e7a-9e7074d0b0a5.png)
+
+- Step9
+
+The files are being extracted in this step.
+
+![install-git-on-windows9](https://user-images.githubusercontent.com/55878408/205210612-572f7f00-fa07-4b49-b547-a86c75e76b46.png)
+
+Therefore, The Git installation is completed. Now you can access the Git Gui and Git Bash.
